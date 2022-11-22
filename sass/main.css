@@ -272,7 +272,6 @@
 
 .container {
   width: 100%;
-  padding: 0 auto;
 }
 
 @media screen and (min-width: 480px) {
@@ -293,6 +292,8 @@
 .banner {
   background-image: url(../../images/banner-mobile.jpg);
   background-size: 480px 400px;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 .button {
