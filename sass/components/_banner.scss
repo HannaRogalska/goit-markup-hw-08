@@ -3,6 +3,23 @@
   background-size: 480px 400px;
   background-repeat: no-repeat;
   background-position: center top;
+  padding: 118px 0px;
+  text-align: center;
+  display: block;
+  &__tittel {
+    margin-bottom: 30px;
+    color: #ffffff;
+  }
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .banner {
+    background-image: url(../../images/banner-mobile@2x.jpg);
+    background-size: 480px 400px;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
 }
 /*
 .banner {
