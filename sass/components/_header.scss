@@ -1,3 +1,5 @@
+
+                                                  // heder 768
 .header {
   border-bottom: 1px solid #ececec;
   justify-content: space-between;
@@ -8,6 +10,10 @@
   padding: 18px 0;
   align-items: center;
 }
+.logo{
+  margin-right: 83px;
+}
+
 .header-menu {
   display: flex;
   list-style: none;
@@ -26,23 +32,17 @@
     }
   }
 }
-
 .header-menu__menu-link:hover {
   color: var(--brand-color);
 }
 
 .header-adress {
-  flex-grow: 1;
-  display: flex;
   list-style: none;
   padding: 0;
   &__item {
     display: flex;
     align-items: center;
-    margin-right: 50px;
-    &:last-child {
-      margin-right: 0;
-    }
+    margin-bottom: 10px;
   }
   &__icon {
     fill: #757575;
@@ -50,7 +50,6 @@
     cursor: pointer;
   }
 }
-
 .header-adress__link:hover,
 .header-adress__item:hover > svg {
   color: var(--brand-color);
@@ -65,7 +64,80 @@
   width: 100%;
   height: 4px;
   background-color: #2196f3;
-  top: 45px;
+  top: 27px;
   color: #2196f3;
   border-radius: 2px;
 }
+
+                                                  // heder 1200
+// .header {
+//   border-bottom: 1px solid #ececec;
+//   justify-content: space-between;
+//   height: 80px;
+// }
+// .header-nav {
+//   display: flex;
+//   padding: 18px 0;
+//   align-items: center;
+// }
+// .header-menu {
+//   display: flex;
+//   list-style: none;
+//   padding: 0;
+//   flex-grow: 2;
+//   &__menu-item {
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 14px;
+//     color: #212121;
+//   }
+//   &__menu-item {
+//     margin-right: 46px;
+//     &:last-child {
+//       margin-right: 0;
+//     }
+//   }
+// }
+
+// .header-menu__menu-link:hover {
+//   color: var(--brand-color);
+// }
+
+// .header-adress {
+//   flex-grow: 1;
+//   display: flex;
+//   list-style: none;
+//   padding: 0;
+//   &__item {
+//     display: flex;
+//     align-items: center;
+//     margin-right: 50px;
+//     &:last-child {
+//       margin-right: 0;
+//     }
+//   }
+//   &__icon {
+//     fill: #757575;
+//     margin-right: 10px;
+//     cursor: pointer;
+//   }
+// }
+
+// .header-adress__link:hover,
+// .header-adress__item:hover > svg {
+//   color: var(--brand-color);
+//   fill: var(--brand-color);
+// }
+
+// .header-menu__menu-item--active-bottom a::after {
+//   content: "";
+//   bottom: 0;
+//   left: 0;
+//   position: absolute;
+//   width: 100%;
+//   height: 4px;
+//   background-color: #2196f3;
+//   top: 45px;
+//   color: #2196f3;
+//   border-radius: 2px;
+// }
