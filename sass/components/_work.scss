@@ -1,27 +1,85 @@
-.work {
-  padding: 0;
+                                    // work-mobile
+// .work {
+//   padding: 0;
+// }
+// .work-column {
+//   margin-top: 0px;
+//   padding: 0;
+//   &__work-column-item {
+//     list-style: none;
+//   }
+//   &__work-column-svg {
+//     background-color: #f5f4fa;
+//     width: 450px;
+//     height: 120px;
+//     padding-block: 25px;
+//     text-align: center;
+//   }
+//   &__work-column-tittle {
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 1.14;
+//     text-align: center;
+//     letter-spacing: 0.03em;
+//     margin: 30px 0px 10px;
+//     color: #212121;
+//   }
+//   &__work-column-text {
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 1.71;
+//     letter-spacing: 0.03em;
+//     color: var(--text-color);
+//     margin-bottom: 30px;
+//   }
+// }
+// .work-title{
+//   display: none;
+// }
+// .work-cards{
+//   display: none;
+//   list-style: none;
+//    &__card {
+//     width: 450px;
+//     height: 450px;
+//     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+//       0px 2px 1px rgba(0, 0, 0, 0.2);
+//     border-radius: 0px 0px 4px 4px;
+//     background-color: #ffffff;
+  
+//   }
+// }
+
+                                              // work-tablet
+
+@media screen and (min-width: 768px) {
+  .work {
+  display: flex;
+  
+  flex-wrap: wrap;
+  background-color: #ffffff;
 }
 .work-column {
-  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 0;
+  margin: 0;
+   gap: 30px;
+  
   &__work-column-item {
+    width: 354px;
     list-style: none;
   }
   &__work-column-svg {
     background-color: #f5f4fa;
-    width: 450px;
+    width: 354px;
     height: 120px;
-    padding-block: 25px;
     text-align: center;
+    padding-block: 25px;
   }
   &__work-column-tittle {
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin: 30px 0px 10px;
-    color: #212121;
   }
   &__work-column-text {
     font-weight: 400;
@@ -49,6 +107,11 @@
   }
 }
 
+}
+
+
+
+                                          // work-1200
 // .work {
 //   display: flex;
 //   flex-direction: column;

@@ -8,6 +8,7 @@
 //   text-align: center;
 //   display: block;
 //   &__tittel {
+  //  width: 365px;
 //     margin-bottom: 30px;
 //     color: #ffffff;
 //   }
@@ -35,8 +36,8 @@
   text-align: center;
   display: block;
   &__tittel {
-    margin-left: 202px;
-    margin-bottom: 30px;
+    width: 365px;
+    margin: 0px 201px 30px 202px;
     color: #ffffff;
   }
 }
