@@ -16,7 +16,7 @@
     <title>Studio</title>
   </head>
   <body>
-     <header class="header">
+    <header class="header">
       <div class="container">
         <nav class="header-nav">
           <div class="logo">
@@ -67,8 +67,72 @@
             </li>
           </ul>
         </nav>
+        <!-- mobile-menu -->
+        <div class="mobile-menu">
+          <button type="button" class="menu-open-btn" data-menu-open>
+            <svg width="40" height="40">
+              <use href="./images/icons.svg#icon-menu_24px"></use>
+            </svg>
+          </button>
+        </div>
+
+        <div class="mob-menu is-hidden" data-menu>
+          <div class="menu-box">
+            <button type="button" class="menu-close-btn" data-menu-close>
+              <svg width="40" height="40">
+                <use href="./images/icons.svg#icon-close_btn"></use>
+              </svg>
+            </button>
+            <ul class="mob-menu__list list">
+              <li class="mob-menu__item">
+                <a
+                  href="./index.html"
+                  class="mob-menu__link mob-menu__link--active link"
+                  >Agencja</a
+                >
+              </li>
+              <li class="mob-menu__item">
+                <a href="./portfolio.html" class="mob-menu__link link"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mob-menu__item">
+                <a href="" class="mob-menu__link link">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-box">
+            <ul class="mob-menu__contacts list">
+              <li class="mob-menu__item">
+                <a href="tel:+48 111 111 111" class="mob-menu__tel link"
+                  >+48 111 111 111</a
+                >
+              </li>
+              <li class="mob-menu__item">
+                <a href="mailto:info@devstudio.com" class="mob-menu__mail link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mob-soc list">
+              <li class="mob-soc__item">
+                <a href="" class="mob_soc__link link">Instagram</a>
+              </li>
+              <li class="mob-soc__item">
+                <a href="" class="mob_soc__link link">Twitter</a>
+              </li>
+              <li class="mob-soc__item">
+                <a href="" class="mob_soc__link link">Facebook</a>
+              </li>
+              <li class="mob-soc__item">
+                <a href="" class="mob_soc__link link">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </header> 
+    </header>
+
     <main>
       <div class="banner">
         <div class="container">
@@ -248,7 +312,7 @@
                   alt="market"
                   width="270"
                   height="260"
-                   srcset="./images/marketing@2x.jpg 2x"
+                  srcset="./images/marketing@2x.jpg 2x"
                 />
                 <h4 class="team-list__tittle">John Doe</h4>
                 <p class="team-list__text text-color">Marketing</p>
@@ -519,5 +583,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
