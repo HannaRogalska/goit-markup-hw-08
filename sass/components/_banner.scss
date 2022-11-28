@@ -1,6 +1,6 @@
 // banner-mobile
 .banner {
-  background-image: url(../../images/banner-mobile.jpg);
+  background-image: url(./images/banner-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   padding: 118px 0px;
@@ -17,7 +17,7 @@
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .banner {
-    background-image: url(../../images/banner-mobile@2x.jpg);
+    background-image: url(./images/banner-mobile@2x.jpg);
     background-size: 480px 400px;
     background-repeat: no-repeat;
     background-position: center top;
@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 768px) {
   .banner {
-    background-image: url(../../images/header-tablet.jpg);
+    background-image: url(./images/header-tablet.jpg);
     background-size: 768px 400px;
     background-repeat: no-repeat;
     background-position: center top;
