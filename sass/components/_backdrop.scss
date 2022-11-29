@@ -32,13 +32,19 @@
     background: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    &:hover,
+    &:focus {
+      fill: var(--brand-color);
+      border: 1px solid var(--brand-color);
+    border-radius: 50%;
+    transition: 250ms;
+    }
   }
   .is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
     transform: translateY(-100%);
-   
   }
 
   .form-modal-fieldset,
@@ -217,7 +223,6 @@
     pointer-events: none;
     transform: translateY(-100%);
   }
-
 
   .form-modal-fieldset,
   .form-modal-fieldset-textarea {

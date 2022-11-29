@@ -124,6 +124,7 @@
 
   .header-menu__menu-link:hover {
     color: var(--brand-color);
+    transition: 0.250ms;
   }
 
   .header-adress {
@@ -150,6 +151,7 @@
   .header-adress__item:hover > svg {
     color: var(--brand-color);
     fill: var(--brand-color);
+    transition: 0.250ms;
   }
 
   .header-menu__menu-item--active-bottom a::after {

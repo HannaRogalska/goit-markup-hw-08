@@ -51,10 +51,12 @@
     height: 44px;
     text-align: center;
     padding: 12px;
+    transition: 0.250ms;
     &:hover {
       fill: #ffffff;
       background-color: var(--brand-color);
       border-radius: 30px;
+      transition: 0.250ms;
     }
     &:last-child {
       margin-right: 0;
