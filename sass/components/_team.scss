@@ -73,6 +73,16 @@
   animation-name: ikonTeam;
   list-style: none;
   margin-right: 10px;
+   transition: 0.250ms;
+  &:last-child {
+    margin-right: 0px;
+  }
+  &:hover {
+    fill: #ffffff;
+    cursor: pointer;
+    background-color: var(--brand-color);
+    border-radius: 30px;
+  }
 }
                                           // team-tablet
 @media screen and (min-width: 768px){
