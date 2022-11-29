@@ -73,4 +73,14 @@
       line-height: 1.6;
     }
   }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .banner {
+      background-image: url(../images/back-ground@2x.jpg);
+      background-size: 1600px 600px;
+      background-repeat: no-repeat;
+      background-position: center top;
+    }
+  }
 }
