@@ -9,13 +9,17 @@
 @media screen and (max-width: 768px) {
   .header-menu {
     display: none;
+    padding-inline-start: 0px;
+    margin: 0;
   }
+
   .header-adress {
     display: none;
   }
   .header-inner {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
   .header-nav {
     width: 50%;
@@ -55,6 +59,10 @@
       }
     }
   }
+  .header-menu__menu-link {
+    transition: color 0.25ms;
+  }
+
   .header-menu__menu-link:hover {
     color: var(--brand-color);
   }
@@ -71,6 +79,11 @@
       margin-right: 10px;
     }
   }
+  .header-adress__link,
+  .header-adress__item > svg {
+    transition: fill 0.25ms, color 0.25ms;
+  }
+
   .header-adress__link:hover,
   .header-adress__item:hover > svg {
     color: var(--brand-color);
@@ -120,10 +133,11 @@
       }
     }
   }
-
+  .header-menu__menu-link {
+    transition: color 0.25ms;
+  }
   .header-menu__menu-link:hover {
     color: var(--brand-color);
-    transition: 0.25ms;
   }
 
   .header-adress {
@@ -145,12 +159,14 @@
       cursor: pointer;
     }
   }
-
+  .header-adress__link,
+  .header-adress__item > svg {
+    transition: fill 0.25ms, color 0.25ms;
+  }
   .header-adress__link:hover,
   .header-adress__item:hover > svg {
     color: var(--brand-color);
     fill: var(--brand-color);
-    transition: 0.25ms;
   }
 
   .header-menu__menu-item--active-bottom a::after {

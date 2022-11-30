@@ -47,16 +47,17 @@
     padding-top: 18px;
     width: 226px;
     height: 92px;
+    transition: border .25ms;
+
     &:hover {
       border: 1px solid #03a9f4;
-      transition: 0.250ms;
     }
   }
   &__icon-svg {
     fill: #afb1b8;
+    transition: fill .25ms;
     &:hover {
       fill: #03a9f4;
-      transition: 0.250ms;
     }
   }
 }
@@ -77,10 +78,10 @@
     padding-top: 18px;
     width: 170px;
     height: 92px;
-    
+    transition: border .25ms;
     &:hover {
       border: 1px solid #03a9f4;
-      transition: 0.250ms;
+      
     }
    
   }
@@ -88,9 +89,9 @@
     fill: #afb1b8;
     margin-right: 10px;
     cursor: pointer;
+    transition: fill .25ms;
     &:hover {
       fill: #03a9f4;
-      transition: 0.250ms;
     }
   }
 }

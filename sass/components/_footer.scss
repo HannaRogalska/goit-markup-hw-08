@@ -51,12 +51,12 @@
     height: 44px;
     text-align: center;
     padding: 12px;
-    transition: 0.250ms;
+    transition: fill 0.25ms, color .25ms, background-color .25ms;
+border-radius: 30px;
     &:hover {
       fill: #ffffff;
       background-color: var(--brand-color);
-      border-radius: 30px;
-      transition: 0.250ms;
+     
     }
     &:last-child {
       margin-right: 0;
@@ -200,6 +200,13 @@
       height: 44px;
       text-align: center;
       padding: 12px;
+      transition: fill .25ms, color .25ms, background-color .25ms;
+border-radius: 30px;
+    &:hover {
+      fill: #ffffff;
+      background-color: var(--brand-color);
+     
+    }
       &:last-child {
         margin-right: 0;
       }
