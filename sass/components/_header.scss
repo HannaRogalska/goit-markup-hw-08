@@ -6,7 +6,7 @@
   padding-top: 18px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .header-menu {
     display: none;
   }
@@ -15,6 +15,7 @@
   }
   .header-inner {
     display: flex;
+    align-items: center;
   }
   .header-nav {
     width: 50%;
@@ -30,7 +31,6 @@
 @media screen and (min-width: 768px) {
   .header-nav {
     display: flex;
-
     align-items: center;
   }
   .logo {
@@ -40,7 +40,7 @@
   .header-menu {
     display: flex;
     list-style: none;
-    padding: 0;
+
     flex-grow: 2;
     &__menu-item {
       font-style: normal;
@@ -61,7 +61,6 @@
 
   .header-adress {
     list-style: none;
-    padding: 0;
     &__item {
       display: flex;
       align-items: center;
@@ -106,7 +105,7 @@
   .header-menu {
     display: flex;
     list-style: none;
-    padding: 0;
+
     flex-grow: 2;
     &__menu-item {
       font-style: normal;
@@ -124,14 +123,14 @@
 
   .header-menu__menu-link:hover {
     color: var(--brand-color);
-    transition: 0.250ms;
+    transition: 0.25ms;
   }
 
   .header-adress {
     flex-grow: 1;
     display: flex;
     list-style: none;
-    padding: 0;
+
     &__item {
       display: flex;
       align-items: center;
@@ -151,7 +150,7 @@
   .header-adress__item:hover > svg {
     color: var(--brand-color);
     fill: var(--brand-color);
-    transition: 0.250ms;
+    transition: 0.25ms;
   }
 
   .header-menu__menu-item--active-bottom a::after {
